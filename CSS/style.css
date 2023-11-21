@@ -1,0 +1,174 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 7vh;
+}
+
+.main-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #E5E5E5;
+    border-radius: 5vw 5vw 0px 0px;
+    background-color: azure;
+}
+
+.chapter{
+    width: 15vw;
+}
+
+.search-line{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search{
+    width: 65vw;
+    height: 6vh;
+    border-radius: 4vw;
+    border: 3px solid #E5E5E5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-button{
+    width: 13vw;
+    height: 6vh;
+    background-color: #70BDA1;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button img{
+    width: 50%;
+    height: 50%;
+}
+
+.loop{
+    width: 6vw;
+    height: 3vh;
+}
+
+.search-area{
+    width: 70%;
+    height: 100%;
+}
+
+.meals{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+}
+
+.meal{
+    padding: 1vh 5vw;
+    border-radius: 5vw;
+    border: 2px solid black;
+    margin: 0 2vw;
+}
+
+.meal p{
+    font-size: 5vw;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    height: 80%;
+}
+
+.search-text{
+    width: 97%;
+    height: 100%;
+    font-size: 5vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.display-none{
+    display: none !important;
+}
+
+.card{
+    display: block;
+    margin: 4vh 0vw ;
+    width: 100%;
+    height: 20vh;
+    border-radius: 5vw;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0vw 1vh 10px grey;
+    background-color: white;
+}
+.card-header {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 4.5vw;
+}
+
+.dish-nation, .dish-maker{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 4.2vw;
+    color: #8D8D8D;
+}
+
+.time-cooking{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 3.7vw;
+    color: #6FBDA1;
+}
+
+
+.about{
+    width: 60%;
+    height: 100%;
+    padding: 2vh 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-image{
+    display: flex;
+    align-items: center;
+}
+.card-main{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-image img{
+    width: 26vw;
+    border-radius: 3vw;
+}
+
+.card-footer{
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    overflow: scroll;
+    padding: 0vh 7vw;
+    width: 100%;
+    
+}
